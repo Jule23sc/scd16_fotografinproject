@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-family: Roboto;
+    width: 1440px;
+}
+img {
+    width: 250px;
+}
+li {
+    list-style: none;
+}
+
+/*//header//*/
+article {
+    margin-left: 45vh;
+    margin-top: 10vh;
+    width: 90vh;
+}
+article p {
+    margin-top: 10vh;
+}
+.burgermenu {
+    font-size: 25px;
+    margin-right: 50vh;
+    margin-top: 4vh;
+}
+.navi img {
+    margin-left: 45vh;
+    margin-top: 5vh;
+    width: 100px;
+}
+.navi ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*//main//*/
+section {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 45vh;
+    margin-top: 15vh;
+}
+
+/*//footer//*/
+div {
+    background-color:#AFAFAF;
+    padding-top: 2px;
+}
+ .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin-left: 25vh;
+    margin-top: 25vh;
+}
+form {
+    gap: 10px;
+    margin: 0 auto;
+    width: 60vh;
+}
+h3 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+input {
+    padding: 10px;
+}
+.interact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*//mediaqueries//*/
